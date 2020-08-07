@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript">
+
+function changePic(eleId){
+ var folder = "./res/";
+ var imgObj = document.getElementById(eleId);
+ var Flag = (imgObj.getAttribute("src")==folder + eleId + ".jpg");
+ imgObj.src=Flag?folder + eleId + "_FA-GANs.jpg": folder + eleId + ".jpg";
+}
+
+function changePicBeautyCam(eleId){
+ var folder = "./res/";
+ var imgObj = document.getElementById(eleId + "_beautyCam");
+ var Flag = (imgObj.getAttribute("src")==folder + eleId + ".jpg");
+ imgObj.src=Flag?folder + eleId + "_beautyCam.jpg": folder + eleId + ".jpg";
+}
+
+function changePicBeautyGAN(eleId){
+ var folder = "./res/";
+ var imgObj = document.getElementById(eleId + "_beautyGAN");
+ var Flag = (imgObj.getAttribute("src")==folder + eleId + ".jpg");
+ imgObj.src=Flag?folder + eleId + "_beautyGAN.jpg": folder + eleId + ".jpg";
+}
+
+</script>
+<meta charset="utf-8"> 
+<title>html test</title> 
+</head>
+<body>
+<center><table>
+
+<tr>
+<p style="font-size:240%">Click to see the detailed changes of each method </p>
+</tr>
+
+<tr>
+<th></th>
+<th>Original</th>
+<th></th>
+<th>FA-GANs</th>
+<th></th>
+<th>Meitu</th>
+<th></th>
+<th>BeautyGAN</th>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF84.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF84.jpg" id="AF84" onclick='changePic("AF84")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF84.jpg" id="AF84_beautyCam" onclick='changePicBeautyCam("AF84")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF84.jpg" id="AF84_beautyGAN" onclick='changePicBeautyGAN("AF84")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF155.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF155.jpg" id="AF155" onclick='changePic("AF155")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF155.jpg" id="AF155_beautyCam" onclick='changePicBeautyCam("AF155")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF155.jpg" id="AF155_beautyGAN" onclick='changePicBeautyGAN("AF155")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF175.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF175.jpg" id="AF175" onclick='changePic("AF175")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF175.jpg" id="AF175_beautyCam" onclick='changePicBeautyCam("AF175")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF175.jpg" id="AF175_beautyGAN" onclick='changePicBeautyGAN("AF175")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF201.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF201.jpg" id="AF201" onclick='changePic("AF201")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF201.jpg" id="AF201_beautyCam" onclick='changePicBeautyCam("AF201")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF201.jpg" id="AF201_beautyGAN" onclick='changePicBeautyGAN("AF201")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF249.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF249.jpg" id="AF249" onclick='changePic("AF249")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF249.jpg" id="AF249_beautyCam" onclick='changePicBeautyCam("AF249")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF249.jpg" id="AF249_beautyGAN" onclick='changePicBeautyGAN("AF249")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF251.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF251.jpg" id="AF251" onclick='changePic("AF251")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF251.jpg" id="AF251_beautyCam" onclick='changePicBeautyCam("AF251")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF251.jpg" id="AF251_beautyGAN" onclick='changePicBeautyGAN("AF251")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF283.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF283.jpg" id="AF283" onclick='changePic("AF283")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF283.jpg" id="AF283_beautyCam" onclick='changePicBeautyCam("AF283")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF283.jpg" id="AF283_beautyGAN" onclick='changePicBeautyGAN("AF283")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF343.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF343.jpg" id="AF343" onclick='changePic("AF343")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF343.jpg" id="AF343_beautyCam" onclick='changePicBeautyCam("AF343")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF343.jpg" id="AF343_beautyGAN" onclick='changePicBeautyGAN("AF343")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF394.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF394.jpg" id="AF394" onclick='changePic("AF394")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF394.jpg" id="AF394_beautyCam" onclick='changePicBeautyCam("AF394")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF394.jpg" id="AF394_beautyGAN" onclick='changePicBeautyGAN("AF394")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF423.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF423.jpg" id="AF423" onclick='changePic("AF423")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF423.jpg" id="AF423_beautyCam" onclick='changePicBeautyCam("AF423")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF423.jpg" id="AF423_beautyGAN" onclick='changePicBeautyGAN("AF423")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF450.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF450.jpg" id="AF450" onclick='changePic("AF450")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF450.jpg" id="AF450_beautyCam" onclick='changePicBeautyCam("AF450")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF450.jpg" id="AF450_beautyGAN" onclick='changePicBeautyGAN("AF450")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF505.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF505.jpg" id="AF505" onclick='changePic("AF505")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF505.jpg" id="AF505_beautyCam" onclick='changePicBeautyCam("AF505")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF505.jpg" id="AF505_beautyGAN" onclick='changePicBeautyGAN("AF505")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF577.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF577.jpg" id="AF577" onclick='changePic("AF577")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF577.jpg" id="AF577_beautyCam" onclick='changePicBeautyCam("AF577")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF577.jpg" id="AF577_beautyGAN" onclick='changePicBeautyGAN("AF577")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF666.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF666.jpg" id="AF666" onclick='changePic("AF666")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF666.jpg" id="AF666_beautyCam" onclick='changePicBeautyCam("AF666")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF666.jpg" id="AF666_beautyGAN" onclick='changePicBeautyGAN("AF666")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF844.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF844.jpg" id="AF844" onclick='changePic("AF844")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF844.jpg" id="AF844_beautyCam" onclick='changePicBeautyCam("AF844")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF844.jpg" id="AF844_beautyGAN" onclick='changePicBeautyGAN("AF844")' width="224" height="224"/>
+	</td>
+</tr>
+
+<tr>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF1003.jpg" width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF1003.jpg" id="AF1003" onclick='changePic("AF1003")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF1003.jpg" id="AF1003_beautyCam" onclick='changePicBeautyCam("AF1003")' width="224" height="224"/>
+	</td>
+<td valign="middle" align="center"></td>	<td valign="middle" align="center">
+		<img src="./res/AF1003.jpg" id="AF1003_beautyGAN" onclick='changePicBeautyGAN("AF1003")' width="224" height="224"/>
+	</td>
+</tr>
+
+</table>
+</center>
+</body>
+</html>
