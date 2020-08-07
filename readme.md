@@ -1,5 +1,7 @@
 ## Introduction
 
+Official implementation of "FA-GANs: Facial Attractiveness Enhancement with Generative Adversarial Networks on Frontal Faces".
+
 This paper proposes FA-GANs for facial attractiveness enhancement, with a newly designed geometry enhancement consistency module to automatically enhance the input face in both geometry and appearance aspects.
 
 The comparison with other state-of-the-arts methods are availbale at [Details Comparison](https://hejw005.github.io/ftune/comparison/compare.html)
